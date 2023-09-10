@@ -25,7 +25,9 @@ python pre-training.py data/interactive.csv 10
 ```
 
 The file is the part that trains the model from an *interactive* file, which is a large-scale traffic volume.
+
 —filename: A factor that selects a data file for training through a file.
+
 —n_days: A factor that determines whether to view the next data based on information about n days.
 
 ```python
@@ -36,12 +38,14 @@ python pre-training.py data/bulk.csv 10
 ```
 
 The file takes models trained from pre-training and conducts transfer learning on relatively small traffic volume data such as *bulk*, *video*, and *web*.
+
 —filename: A factor is a factor that selects a data file for training.
+
 —n_days: A factor that determines whether to view the next data based on information about n days.
 
-The output folder derives a score and a visualization graph.
+`output` folder derives a score and a visualization graph.
 
-The figure below defines the **TransTraffic** architecture.
+The figure below defines the **TransTraffic** architecture in `model.py`.
 
 <img width="940" alt="image" src="https://github.com/DSAIL-SKKU/TransTraffic-ICTC-2022/assets/60170358/14594bbc-c893-41c8-99ea-caf5c34328f8">
 
