@@ -1,4 +1,4 @@
-# TransTraffic: Predicting Network Traffic using Low Resource Data**
+# TransTraffic: Predicting Network Traffic using Low Resource Data
 
 In private 5G/6G networks, an adequate and accurate resource management is essential. We propose a traffic prediction model, TransTraffic, that utilizes transfer learning for low resource data. Our evaluation demonstrates that leveraging prior knowledge from a similar traffic domain helps predict network traffic for a new domain or service.
 
@@ -16,15 +16,15 @@ The dataset consists of network packets, collected from February 20th to October
 - *Web*: Web browsing consists of traffic for all activities within a web page such as downloading images or ads.
 
 ## Run
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/057e347f-38ce-4eff-9082-9d90bd6419e6/4d597967-2216-48b9-88d6-12428861da2e/Untitled.png)
+
+<img width="940" alt="image" src="https://github.com/DSAIL-SKKU/TransTraffic-ICTC-2022/assets/60170358/14594bbc-c893-41c8-99ea-caf5c34328f8">
 
 ## Performance
-## 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/057e347f-38ce-4eff-9082-9d90bd6419e6/4baa34a3-fe7f-4a4b-9faf-75c8f187efc0/Untitled.png)
+<img width="481" alt="image" src="https://github.com/DSAIL-SKKU/TransTraffic-ICTC-2022/assets/60170358/131ffc66-53f7-4474-8c86-842295b3a342">
 
 Our model outperforms both MLP and LSTM models in three different user activity data (i.e., *Bulk*, *Video*, and *Web*). In particular, compared to other baselines, the proposed model shows relatively good performance even with the extremely small amount of data (i.e., *Video* and *Web*). 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/057e347f-38ce-4eff-9082-9d90bd6419e6/f70f6ee0-5452-4735-adf0-79abd3857a39/Untitled.png)
+<img width="471" alt="image" src="https://github.com/DSAIL-SKKU/TransTraffic-ICTC-2022/assets/60170358/9588770b-6e68-44c9-9e6b-4c12a7a2e74c">
 
 To explore the effectiveness of the transfer learning, we compare the traffic prediction performance of the proposed model between with and without transfer learning. To explore the effectiveness of the transfer learning, we compare the traffic prediction performance of the proposed model between with and without transfer learning.
