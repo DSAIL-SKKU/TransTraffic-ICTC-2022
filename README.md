@@ -30,7 +30,7 @@ The file is the part that trains the model from an *interactive* file, which is 
 
 —n_days: A factor that determines whether to view the next data based on information about n days.
 
-<br/><br/>
+<br/>
 
 ```python
 python fine-tuning.py --filename --n_days
@@ -45,11 +45,11 @@ The file takes models trained from pre-training and conducts transfer learning o
 
 —n_days: A factor that determines whether to view the next data based on information about n days.
 
-<br/><br/>
+<br/>
 
 `output` folder derives a score and a visualization graph.
 
-<br/><br/>
+<br/>
 
 The figure below defines the **TransTraffic** architecture in `model.py`.
 
